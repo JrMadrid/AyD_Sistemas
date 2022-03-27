@@ -1,8 +1,1 @@
-J-Hola islamar, es para probar tus commits
-
-Crea una carpeta para el proyecto 
-accedes a ella por git ( cd carpeta/proyecto)
-escribis git init 
- y git push 
- o algo asi jaja 
- 
+Esta rama es para ver trabajar las mejoras
