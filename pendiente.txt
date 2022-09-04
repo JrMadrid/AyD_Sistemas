@@ -1,0 +1,3 @@
+-----COSAS QUE SE DEBEN HACER-----
+
+acomodar los datos de fallas tecnicas en los "informes de falla tecnicas" con un paginador
