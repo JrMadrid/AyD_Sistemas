@@ -3,5 +3,9 @@
 "Recordar que estos cambios no se ven reflejados en la pagina de http://devsjobsjr.epizy.com/ ya que no esta conectado con github"
 
 
---acomodar los datos de fallas tecnicas en los "informes de falla tecnicas" con un paginador
---arreglar los divs en las paginas asegurando que no sean muy grandes
+-acomodar los datos de fallas tecnicas en los "informes de falla tecnicas" con un paginador
+---arreglar los divs en las paginas asegurando que no sean muy grandes
+----generar un modo oscuro en toda la plataforma
+-dar una breve descripcion en el apartado de informes
+--acomodar mejor el apartado grafico de registrar
+-meter un chatbot en la plataforma
