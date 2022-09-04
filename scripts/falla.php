@@ -9,10 +9,10 @@ include_once("encabezadojs.php");
       <h1>Formulario Falla Técnica</h1>
       <center>
         <div class="w-75" style="text-align:left;">
-           
+
           <form onsubmit="return validar()" method="POST" action="agregar/agregarfallo.php">
-           
-          <table width="100%" cellspacing=0 cellpadding=0 border=1> 
+
+          <table width="100%" cellspacing=0 cellpadding=0 border=1>
              <thead>
                 <tr>
                   <th width="50%"><label>Tipo de Problema:&nbsp</label>
@@ -26,17 +26,17 @@ include_once("encabezadojs.php");
                       <select value="" name="seccion" id="seccion">
                       <option value="">--Seleccione--</option>
                         <option value="Inicio">Inicio</option>
-                        <option value="Vacantes">Vacantes</option>
+                        <option value="Trabajo">Trabajo</option>
                         <option value="Registro">Registro</option>
                         <option value="Informes">Informes</option>
                         <option value="Iniciar Sesion">Iniciar Sesion</option>
               </select></th>
                 </tr>
             </thead>
-            <tbody> 
+            <tbody>
                 <tr><td colspan=2><textarea placeholder="Describa el Fallo Técnico" style="width:100%;border:1px solid whitesmoke;" name="desc" cols="30" rows="10" required></textarea></td></tr>
             </tbody>
-            </table> 
+            </table>
 
             <div class="fw-bold">
               <label class="fw-bold" for="n1">Captcha, Responde a la suma siguiente:*</label><br>
@@ -57,8 +57,8 @@ include_once("encabezadojs.php");
     </div>
   </div>
 </div>
-<!-- Aqui acaba el reporte  -->  
-<script src="validacion/falla.js"></script>  
+<!-- Aqui acaba el reporte  -->
+<script src="validacion/falla.js"></script>
 
 <?php
 include_once("piejs.php");
