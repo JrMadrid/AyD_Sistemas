@@ -1,4 +1,7 @@
 -----COSAS QUE SE DEBEN HACER-----
 
 "Recordar que estos cambios no se ven reflejados en la pagina de http://devsjobsjr.epizy.com/ ya que no esta conectado con github"
-acomodar los datos de fallas tecnicas en los "informes de falla tecnicas" con un paginador
+
+
+--acomodar los datos de fallas tecnicas en los "informes de falla tecnicas" con un paginador
+--arreglar los divs en las paginas asegurando que no sean muy grandes
