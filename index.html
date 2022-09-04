@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  <!-- IMPORTANTEEEEEEEEEEE -->
+    <link rel="shortcut icon" href="img/HN.png">
+    <title>Devs&Jobs</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css"> <!-- IMPORTANTEEEEEEEEEEE -->
+    <link rel="stylesheet" href="bootstrap/icons-1.6.1/font/bootstrap-icons.css"> <!-- IMPORTANTEEEEEEEEEEE -->
+    <link rel="stylesheet" href="estilo.css"> <!-- IMPORTANTEEEEEEEEEEE -->
+    <link rel="stylesheet" href="css/styles.css">
+
+  </head>
+  <body style="margin-top: 65px;">
+
+<nav class="navbar navbar-expand-xl navbar-dark fixed-top pnavbar" > <!-- IMPORTANTEEEEEEEEEEE fixed-top -->
+      <div class="container-fluid">
+        <a class="navbar-brand" target="_blank" href="http://www.trabajo.gob.hn/"> <img src="img/STmini.jpg" height=40> </a> <!-- IMPORTANTEEEEEEEEEEE -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarDark" aria-controls="navbarDark" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarDark">  <!-- IMPORTANTEEEEEEEEEEE show por hide-->
+          <ul class="navbar-nav me-auto mb-2 mb-xl-0">
+            <li class="nav-item botonnav">
+              <a class="nav-link active" target="_blank" aria-current="page" href="http://devsjobsjr.epizy.com/">Inicio</a>
+            </li>
+            </ul>
+        </div>
+        <div class="btn-group botonnav">
+          <button type="button" class="btn dropdown-toggle-split botonnav binicio" data-bs-toggle="dropdown" aria-expanded="false"><i class="bi bi-file-earmark-person-fill"></i>&nbspRegistrar&nbsp
+            <span class="visually-hidden">Toggle Dropdown</span>
+          </button>
+          <ul class="dropdown-menu dropdown-menu-dark">
+            <li class="botonnav" ><a class="dropdown-item" href="postulante/registropostulante.php">Postulante</a></li>
+            <li class="botonnav" ><hr class="dropdown-divider"></li>
+            <li class="botonnav" ><a class="dropdown-item" href="empresa/registroempresa.php">Empresa</a></li>
+          </ul>
+        </div>
+        <div class="btn-group botonnav">
+          <button type="button" class="btn dropdown-toggle-split botonnav binicio" data-bs-toggle="dropdown" aria-expanded="false"><i class="bi bi-person-circle "></i>&nbspIniciar Sesión&nbsp
+            <span class="visually-hidden">Toggle Dropdown</span>
+          </button>
+          <ul class="dropdown-menu dropdown-menu-dark">
+            <li class="botonnav" ><a class="dropdown-item" href="../postulante/iniciarsesionpostulante.php">Postulante</a></li>
+            <li class="botonnav" ><hr class="dropdown-divider"></li>
+            <li class="botonnav" ><a class="dropdown-item" href="../empresa/iniciarsesionempresa.php">Empresa</a></li>
+          </ul>
+        </div>    </div>
+</nav>
+<a name=inicio></a>
+
+<!-- Aqui empieza como tal el reporte -->
+<header class="header">
+<!---HEADER-->
+<div class="text-header d-flex align-items-center">
+ <div class="container">
+   <header class="masthead">
+     <div class="container">
+         <div class="masthead-subheading">La poblacion hondureña</div>
+         <div class="masthead-heading text-uppercase">¿Necesita trabajar?</div>
+         <a class="btn btn-primary btn-xl text-uppercase" href="http://www.trabajo.gob.hn/">Mas informacion</a>
+     </div>
+ </header>
+ </div>
+</div>
+
+</header>
+
+<section class="page-section" id="services">
+<div class="container">
+ <div class="text-center" style="padding: 50px;">
+     <h2 class="section-heading text-uppercase">Para usted y por usted</h2>
+     <h3 class="section-subheading text-muted">En pro del desarrollo de nuestro país cualquier persona con ganas de trabajar va a trabajar. Entérese de los programas vigentes y los convenios con instituciones privadas a nivel nacional.</h3>
+     <iframe class="w-100" height="315" src="https://www.youtube.com/embed/_oxVdcAL8D0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+   </div>
+
+ </div>
+</div>
+
+
+<footer style="background-color: rgb(33,37,41);">
+    <div class="container-fluid bg-dark text-white text-center p-2 fs-6">
+      <h5>Información</h5>
+      <div style="text-align: left;margin-left: 20px;">
+        <input onClick="informacion()" type="radio" name="INFORMACION" value="histo" id="historia">
+        <label for="historia">Historia</label>
+        <input onClick="informacion()" type="radio" name="INFORMACION" value="mivi" id="misvis">
+        <label for="misvis">Mision & Vision</label>
+        <input onClick="informacion()" type="radio" name="INFORMACION" value="borrar" id="borrar">
+        <label style="color:gray;position:relative; left:50%" for="borrar"><i class="bi bi-recycle"></i></label>
+        <div id="info">
+        </div>
+        <i class="bi bi-telephone-fill" style="margin-bottom:5px"></i>&nbsp;+504 9636-4564
+        <br>
+        <i class="bi bi-envelope-fill"></i>&nbsp;devsandjobs@trabajohn.com
+        <br>
+        <i class="bi bi-facebook"></i>&nbsp;Devs&Jobs
+        <br>
+        <br>
+        <button style="color:gray;background-color:inherit;"><a href="registro.php" style="margin:10px" >Registrarse</a> </button>
+      </div>
+      <a href="#inicio" style="position:relative;bottom:0em;right:0;width:50px;height:50px">
+        <i class="bi bi-arrow-bar-up" style="color:white;width:50px;"></i>
+      </a>
+    </div>
+
+    <div style="background-color:black; color: white; padding-left: 15px; border-top:1px solid gray;">
+      <marquee behavior="" direction="">Desarrollado por Devs & Jobs 2021 © Todos los derechos reservados.</marquee>
+    </div>
+  </footer>
+  <script src="elementos/informacion.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script> <!-- IMPORTANTEEEEEEEEEEE -->
+  </body>
+</html>
